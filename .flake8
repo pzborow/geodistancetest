@@ -1,0 +1,6 @@
+[flake8]
+ignore = W404,W806,E241,E226,E501
+max-line-length = 119
+exclude = migrations
+max-complexity = 10
+

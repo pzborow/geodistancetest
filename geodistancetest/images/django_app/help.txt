@@ -1,0 +1,14 @@
+Usage: run [COMMAND ...]
+
+Run Server related operations in a docker container.
+
+Positional arguments:
+  COMMAND          The command to run. (default: help)
+
+Commands:
+  help             Show this help message
+  runserver        Running developer server
+  makemigrations   Make migrations
+  migrate          Migrate database
+  runtest          Run tests
+  cli              Drop into a bash shell

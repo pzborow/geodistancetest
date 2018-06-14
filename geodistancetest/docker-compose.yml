@@ -1,0 +1,15 @@
+ version: '2'
+ services:
+   db:
+     image: mdillon/postgis
+     environment:
+        POSTGRES_PASSWORD: "secret"
+   web:
+     build: images/django_app
+     command: runserver
+     volumes:
+       - ./services/django_app:/srv
+     ports:
+       - "8000:8000"
+     depends_on:
+       - db
