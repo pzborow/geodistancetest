@@ -8,6 +8,9 @@ Model City has ability to return objects with distances to given flat. In order 
 If flat is placed in city area then uses distance to center of the city otherwise uses distance between flat and closest
 point or edge of city border. Flat has two methods, one for returning closest city, second for distance between them.
 
+It was written as a recruitment task. I gave myself a fixed amount of time for it and did as much as I could
+within that time; the task brief is in `brief/`.
+
 
 ## Folder structure 
 
